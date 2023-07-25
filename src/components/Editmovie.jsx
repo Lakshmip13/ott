@@ -43,7 +43,7 @@ const Editmovie = () => {
 
         //send the movie object to the database
 
-        fetch("http://localhost:4000/movies/"+id , 
+        fetch("  http://localhost:4000/movies"+id , 
         {
             method : "PUT",
             headers : {"Content-Type": "application/json"},

@@ -12,7 +12,7 @@ const Home=()=>{
                 localStorage.setItem("fav" , "[]")
         }
         setTimeout(()=>{
-            fetch("http://localhost:4000/movies")
+            fetch("  http://localhost:4000/movies")
             .then((res)=>{return res.json()})
             .then((data)=>{
                 console.log(data);

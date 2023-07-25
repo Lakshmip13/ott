@@ -6,7 +6,7 @@ const Navbar=()=>{
     let [movienames,setMovies]=useState([]);
 
     useEffect(()=>{
-        fetch("http://localhost:4000/movies")
+        fetch("  http://localhost:4000/movies")
        .then((res)=>{return res.json()})
        .then((data)=>{
         let names = data.map((m)=>{return {moviename : m.moviename , id : m.id} })
