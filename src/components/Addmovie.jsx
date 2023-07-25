@@ -1,8 +1,8 @@
 import { useRef } from "react";
-import { userNavigate} from 'react-router-dom'
+import { useNavigate} from 'react-router-dom'
 const Addmovie=()=>{
 
-    let navigate=userNavigate();
+    let navigate=useNavigate();
     let moviename=useRef();
     let hero=useRef();
     let heroine=useRef();
